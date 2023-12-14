@@ -1,0 +1,106 @@
+
+
+use("pet_store")
+
+db.products.updateOne(
+  // query
+  {_id: 1},
+  // change => operators
+  {
+    $set: {
+      name: 'Change name',
+      price: 3000,
+    }
+  },
+
+  {_id: 15},
+  // change => operators
+  {
+    $set: {
+      name: '15th product',
+      price: 300,
+    }
+  },
+
+  {_id: 10},
+  // change => operators
+  {
+    $set: {
+      name: '10th product',
+      price: 3500,
+    }
+  },
+
+  {_id: 7},
+  // change => operators
+  {
+    $set: {
+      name: '7th product',
+      price: 40,
+    }
+  },
+
+  {_id: 5},
+  // change => operators
+  {
+    $set: {
+      name: '5th product',
+      price: 700,
+    }
+  },
+
+  {_id: 20},
+  // change => operators
+  {
+    $set: {
+      name: '20th product',
+      price: 3000,
+    }
+  },
+
+  {_id: 24},
+  // change => operators
+  {
+    $set: {
+      name: '24th product',
+      price: 900,
+    }
+  },
+
+  {_id: 19},
+  // change => operators
+  {
+    $set: {
+      name: '19th product',
+      price: 30000,
+    }
+  },
+
+  {_id: 11},
+  // change => operators
+  {
+    $set: {
+      name: '11th product',
+      price: 3008,
+    }
+  },
+
+  {_id: 3},
+  // change => operators
+  {
+    $set: {
+      name: '3th product',
+      price: 500,
+    }
+  },
+
+  {_id: 13},
+  // change => operators
+  {
+    $set: {
+      name: '13th product',
+      price: 1000,
+    }
+  },
+
+)
