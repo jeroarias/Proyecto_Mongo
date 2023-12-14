@@ -1,0 +1,61 @@
+
+
+use("pet_store")
+
+db.products.drop() // elimina los documentos creados en la colleccion anteriormente
+
+db.products.insertMany([
+  {
+    _id: 1,
+    name: "Prodcut 1",
+    price: 100
+  },
+  {
+    _id: 2,
+    name: "Prodcut 2",
+    price: 20
+  },
+  {
+    _id: 3,
+    name: "Prodcut 3",
+    price: 120
+  },
+  {
+    _id: 4,
+    name: "Prodcut 4",
+    price: 120
+  },
+
+  
+    { 
+        "_id": 5,
+        "title": "Producto 1",
+        "price": 50.00,
+        "description": "Descripción del Producto 1",
+        "category": "Categoría A",
+        "image": "imagen1.jpg"
+     },
+     
+    { "_id": 6, "title": "Producto 2", "price": 55.25, "description": "Descripción del Producto 2", "category": "Categoría B", "image": "imagen2.jpg" },
+    { "_id": 7, "title": "Producto 3", "price": 48.75, "description": "Descripción del Producto 3", "category": "Categoría C", "image": "imagen3.jpg" },
+    { "_id": 8, "title": "Producto 4", "price": 60.50, "description": "Descripción del Producto 4", "category": "Categoría A", "image": "imagen4.jpg" },
+    { "_id": 9, "title": "Producto 5", "price": 45.25, "description": "Descripción del Producto 5", "category": "Categoría B", "image": "imagen5.jpg" },
+    { "_id": 10, "title": "Producto 6", "price": 52.75, "description": "Descripción del Producto 6", "category": "Categoría C", "image": "imagen6.jpg" },
+    { "_id": 11, "title": "Producto 7", "price": 58.00, "description": "Descripción del Producto 7", "category": "Categoría A", "image": "imagen7.jpg" },
+    { "_id": 12, "title": "Producto 8", "price": 47.50, "description": "Descripción del Producto 8", "category": "Categoría B", "image": "imagen8.jpg" },
+    { "_id": 13, "title": "Producto 9", "price": 53.25, "description": "Descripción del Producto 9", "category": "Categoría C", "image": "imagen9.jpg" },
+    { "_id": 14, "title": "Producto 10", "price": 51.75, "description": "Descripción del Producto 10", "category": "Categoría A", "image": "imagen10.jpg" },
+    { "_id": 15, "title": "Producto 11", "price": 49.50, "description": "Descripción del Producto 11", "category": "Categoría B", "image": "imagen11.jpg" },
+    { "_id": 16, "title": "Producto 12", "price": 56.25, "description": "Descripción del Producto 12", "category": "Categoría C", "image": "imagen12.jpg" },
+    { "_id": 17, "title": "Producto 13", "price": 54.00, "description": "Descripción del Producto 13", "category": "Categoría A", "image": "imagen13.jpg" },
+    { "_id": 18, "title": "Producto 14", "price": 59.75, "description": "Descripción del Producto 14", "category": "Categoría B", "image": "imagen14.jpg" },
+    { "_id": 19, "title": "Producto 15", "price": 46.00, "description": "Descripción del Producto 15", "category": "Categoría C", "image": "imagen15.jpg" },
+    { "_id": 20, "title": "Producto 16", "price": 57.25, "description": "Descripción del Producto 16", "category": "Categoría A", "image": "imagen16.jpg" },
+    { "_id": 21, "title": "Producto 17", "price": 50.75, "description": "Descripción del Producto 17", "category": "Categoría B", "image": "imagen17.jpg" },
+    { "_id": 22, "title": "Producto 18", "price": 55.50, "description": "Descripción del Producto 18", "category": "Categoría C", "image": "imagen18.jpg" },
+    { "_id": 23, "title": "Producto 19", "price": 48.25, "description": "Descripción del Producto 19", "category": "Categoría A", "image": "imagen19.jpg" },
+    { "_id": 24, "title": "Producto 20", "price": 62.00, "description": "Descripción del Producto 20", "category": "Categoría B", "image": "imagen20.jpg" }
+  
+  
+
+])
